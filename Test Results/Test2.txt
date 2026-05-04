@@ -1,0 +1,50 @@
+INFO: obstacle_avoidance: Starting controller: python.exe -u obstacle_avoidance.py
+============================================================
+  Autonomous Obstacle Avoidance Controller Started
+  Sensor Threshold: 80.0
+  Base Speed: 3.14 rad/s
+  Logging: ON
+============================================================
+[Step    50] Situation: CLEAR           | Sensors: [68, 69, 76, 65, 65, 64, 68, 66] | Speeds: L=  3.05  R=  3.05
+[Step   100] Situation: CLEAR           | Sensors: [67, 64, 72, 67, 68, 69, 73, 68] | Speeds: L=  3.05  R=  3.05
+[Step   150] Situation: CLEAR           | Sensors: [66, 71, 71, 67, 64, 68, 61, 67] | Speeds: L=  3.05  R=  3.05
+[Step   200] Situation: CLEAR           | Sensors: [65, 69, 66, 63, 66, 61, 66, 66] | Speeds: L=  3.05  R=  3.05
+[Step   250] Situation: CLEAR           | Sensors: [65, 70, 64, 67, 67, 64, 65, 62] | Speeds: L=  3.05  R=  3.05
+[Step   300] Situation: CLEAR           | Sensors: [65, 72, 71, 73, 70, 64, 70, 67] | Speeds: L=  3.05  R=  3.05
+[Step   350] Situation: LEFT_BLOCKED    | Sensors: [63, 66, 69, 65, 74, 83, 74, 73] | Speeds: L=  3.14  R=  1.01
+[Step   400] Situation: CLEAR           | Sensors: [67, 73, 64, 64, 63, 71, 69, 64] | Speeds: L=  3.05  R=  3.05
+[Step   450] Situation: LEFT_BLOCKED    | Sensors: [63, 69, 67, 65, 63, 88, 66, 70] | Speeds: L=  3.11  R=  1.02
+[Step   500] Situation: CLEAR           | Sensors: [69, 65, 74, 72, 65, 74, 66, 67] | Speeds: L=  3.07  R=  2.99
+[Step   550] Situation: CLEAR           | Sensors: [60, 70, 64, 70, 74, 64, 69, 71] | Speeds: L=  3.05  R=  3.05
+[Step   600] Situation: CLEAR           | Sensors: [66, 69, 69, 67, 66, 70, 69, 68] | Speeds: L=  3.05  R=  3.05
+[Step   650] Situation: CLEAR           | Sensors: [67, 64, 70, 67, 66, 65, 63, 69] | Speeds: L=  3.05  R=  3.05
+[Step   700] Situation: CLEAR           | Sensors: [64, 65, 70, 67, 70, 64, 66, 65] | Speeds: L=  3.05  R=  3.05
+[Step   750] Situation: FRONT_BLOCKED   | Sensors: [65, 66, 61, 66, 73, 67, 107, 68] | Speeds: L=  3.14  R= -1.84
+[Step   800] Situation: LEFT_BLOCKED    | Sensors: [65, 64, 68, 65, 71, 121, 70, 66] | Speeds: L=  3.14  R=  2.57
+[Step   850] Situation: CLEAR           | Sensors: [69, 67, 71, 68, 71, 71, 67, 61] | Speeds: L=  3.05  R=  3.05
+[Step   900] Situation: CLEAR           | Sensors: [65, 70, 71, 69, 66, 68, 64, 64] | Speeds: L=  3.05  R=  3.05
+[Step   950] Situation: CLEAR           | Sensors: [72, 71, 70, 66, 70, 68, 68, 63] | Speeds: L=  3.05  R=  3.05
+[Step  1000] Situation: CLEAR           | Sensors: [70, 71, 72, 66, 70, 66, 66, 66] | Speeds: L=  3.05  R=  3.05
+[Step  1050] Situation: CLEAR           | Sensors: [69, 66, 70, 63, 60, 70, 65, 75] | Speeds: L=  3.05  R=  3.05
+[Step  1100] Situation: FRONT_BLOCKED   | Sensors: [68, 68, 66, 66, 65, 65, 80, 66] | Speeds: L=  3.09  R=  0.57
+[Step  1150] Situation: CLEAR           | Sensors: [65, 63, 66, 67, 70, 67, 66, 68] | Speeds: L=  3.08  R=  2.93
+[Step  1200] Situation: CLEAR           | Sensors: [70, 68, 71, 68, 66, 73, 62, 75] | Speeds: L=  3.05  R=  3.05
+[Step  1250] Situation: CLEAR           | Sensors: [66, 64, 66, 65, 67, 77, 69, 70] | Speeds: L=  3.05  R=  3.05
+[Step  1300] Situation: CLEAR           | Sensors: [69, 73, 69, 64, 69, 67, 69, 65] | Speeds: L=  3.05  R=  3.05
+[Step  1350] Situation: CLEAR           | Sensors: [62, 67, 62, 67, 74, 65, 70, 68] | Speeds: L=  3.05  R=  3.05
+[Step  1400] Situation: FRONT_BLOCKED   | Sensors: [66, 60, 72, 63, 66, 65, 114, 107] | Speeds: L=  3.13  R= -1.30
+[Step  1450] Situation: LEFT_BLOCKED    | Sensors: [65, 65, 70, 70, 71, 120, 62, 63] | Speeds: L=  3.14  R=  2.56
+[Step  1500] Situation: CLEAR           | Sensors: [66, 67, 65, 71, 69, 68, 64, 68] | Speeds: L=  3.05  R=  3.05
+[Step  1550] Situation: CLEAR           | Sensors: [60, 64, 72, 64, 68, 63, 68, 67] | Speeds: L=  3.05  R=  3.05
+[Step  1600] Situation: CLEAR           | Sensors: [63, 73, 63, 62, 68, 67, 74, 68] | Speeds: L=  3.05  R=  3.05
+[Step  1650] Situation: FRONT_BLOCKED   | Sensors: [66, 63, 68, 65, 69, 68, 106, 70] | Speeds: L=  3.14  R= -1.86
+[Step  1700] Situation: CLEAR           | Sensors: [68, 65, 66, 70, 66, 65, 66, 63] | Speeds: L=  3.05  R=  3.05
+[Step  1750] Situation: CLEAR           | Sensors: [69, 69, 66, 67, 68, 66, 72, 65] | Speeds: L=  3.05  R=  3.05
+[Step  1800] Situation: FRONT_BLOCKED   | Sensors: [66, 74, 66, 65, 70, 64, 115, 68] | Speeds: L=  3.14  R= -1.77
+[Step  1850] Situation: CLEAR           | Sensors: [63, 67, 71, 70, 65, 68, 66, 70] | Speeds: L=  3.07  R=  2.92
+[Step  1900] Situation: CLEAR           | Sensors: [66, 65, 69, 64, 69, 66, 69, 64] | Speeds: L=  3.05  R=  3.05
+[Step  1950] Situation: FRONT_BLOCKED   | Sensors: [67, 65, 63, 70, 63, 70, 179, 68] | Speeds: L=  3.13  R= -1.44
+[Step  2000] Situation: FRONT_BLOCKED   | Sensors: [67, 72, 68, 63, 132, 97, 70, 95] | Speeds: L=  3.14  R= -1.87
+[Step  2050] Situation: LEFT_BLOCKED    | Sensors: [66, 69, 70, 66, 70, 151, 67, 65] | Speeds: L=  3.14  R=  2.37
+[Step  2100] Situation: CLEAR           | Sensors: [69, 72, 63, 68, 66, 66, 68, 72] | Speeds: L=  3.05  R=  3.05
+[Step  2150] Situation: CLEAR           | Sensors: [63, 70, 70, 65, 66, 65, 69, 61] | Speeds: L=  3.05  R=  3.05

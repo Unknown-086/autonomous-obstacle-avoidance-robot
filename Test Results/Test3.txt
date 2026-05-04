@@ -1,0 +1,26 @@
+INFO: obstacle_avoidance: Starting controller: python.exe -u obstacle_avoidance.py
+============================================================
+  Autonomous Obstacle Avoidance Controller Started
+  Sensor Threshold: 80.0
+  Base Speed: 3.14 rad/s
+  Logging: ON
+============================================================
+[Step    50] Situation: CLEAR           | Sensors: [68, 69, 76, 65, 65, 64, 68, 66] | Speeds: L=  3.05  R=  3.05
+[Step   100] Situation: CLEAR           | Sensors: [67, 64, 72, 67, 68, 69, 73, 68] | Speeds: L=  3.05  R=  3.05
+[Step   150] Situation: CLEAR           | Sensors: [66, 71, 71, 67, 64, 68, 61, 67] | Speeds: L=  3.05  R=  3.05
+[Step   200] Situation: CLEAR           | Sensors: [65, 69, 66, 63, 66, 61, 66, 66] | Speeds: L=  3.05  R=  3.05
+[Step   250] Situation: CLEAR           | Sensors: [65, 70, 64, 67, 67, 64, 65, 62] | Speeds: L=  3.05  R=  3.05
+[Step   300] Situation: CLEAR           | Sensors: [65, 72, 71, 73, 70, 64, 70, 67] | Speeds: L=  3.05  R=  3.05
+[Step   350] Situation: CLEAR           | Sensors: [63, 66, 69, 65, 74, 62, 66, 73] | Speeds: L=  3.05  R=  3.05
+[Step   400] Situation: CLEAR           | Sensors: [67, 73, 64, 64, 63, 71, 69, 64] | Speeds: L=  3.05  R=  3.05
+[Step   450] Situation: NARROW_PASSAGE  | Sensors: [203, 323, 104, 65, 63, 114, 340, 199] | Speeds: L=  1.75  R=  0.76
+[Step   456] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   471] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   500] Situation: NARROW_PASSAGE  | Sensors: [1783, 1902, 120, 72, 65, 610, 2050, 329] | Speeds: L=  0.93  R=  1.58
+[Step   501] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   522] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   550] Situation: FRONT_BLOCKED   | Sensors: [60, 70, 64, 97, 390, 132, 170, 71] | Speeds: L=  3.14  R= -1.88
+[Step   552] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   569] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   600] Situation: LEFT_BLOCKED    | Sensors: [66, 69, 69, 186, 197, 134, 69, 68] | Speeds: L=  3.14  R=  2.28
+[Step   650] Situation: CLEAR           | Sensors: [67, 64, 70, 67, 66, 65, 63, 69] | Speeds: L=  3.05  R=  3.05

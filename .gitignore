@@ -1,0 +1,49 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Webots
+*.cache
+*.dSYM/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.claude
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Assignment reference files (not project work)
+Reference Report Format.txt
+Assignment Proposal.txt
+Other Latex File.tex
+Video_Script.pdf
+Video_Script.md
+Reference Plan.txt

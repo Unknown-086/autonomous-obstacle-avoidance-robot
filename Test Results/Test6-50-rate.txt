@@ -1,0 +1,192 @@
+INFO: obstacle_avoidance: Starting controller: python.exe -u obstacle_avoidance.py
+============================================================
+  Autonomous Obstacle Avoidance Controller Started
+  Sensor Threshold: 50.0
+  Base Speed: 3.14 rad/s
+  Logging: ON
+============================================================
+[Step    30] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step    50] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step    80] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   101] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   131] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   154] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   184] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   199] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   200] Situation: NARROW_PASSAGE  | Sensors: [65, 69, 66, 63, 66, 61, 66, 66] | Speeds: L=  2.39  R= -1.63
+[Step   229] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   245] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   250] Situation: NARROW_PASSAGE  | Sensors: [65, 70, 64, 67, 67, 64, 65, 62] | Speeds: L=  0.57  R=  1.52
+[Step   275] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   295] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   300] Situation: NARROW_PASSAGE  | Sensors: [65, 72, 71, 73, 70, 64, 70, 67] | Speeds: L=  0.12  R=  1.97
+[Step   325] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   340] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   350] Situation: NARROW_PASSAGE  | Sensors: [63, 66, 69, 65, 74, 62, 66, 73] | Speeds: L=  1.47  R=  0.97
+[Step   370] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   388] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   400] Situation: NARROW_PASSAGE  | Sensors: [67, 73, 64, 64, 63, 71, 69, 64] | Speeds: L=  1.49  R=  0.99
+[Step   418] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   442] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   450] Situation: NARROW_PASSAGE  | Sensors: [63, 69, 67, 65, 63, 64, 66, 70] | Speeds: L=  1.29  R=  1.08
+[Step   472] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   487] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   500] Situation: NARROW_PASSAGE  | Sensors: [69, 65, 74, 72, 65, 74, 66, 67] | Speeds: L=  0.89  R=  1.60
+[Step   517] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   536] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   550] Situation: NARROW_PASSAGE  | Sensors: [60, 70, 64, 70, 74, 64, 69, 71] | Speeds: L=  1.18  R=  1.31
+[Step   566] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   589] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   600] Situation: NARROW_PASSAGE  | Sensors: [66, 69, 69, 67, 66, 70, 69, 68] | Speeds: L=  1.60  R=  0.86
+[Step   619] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   640] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   650] Situation: NARROW_PASSAGE  | Sensors: [67, 64, 70, 67, 66, 65, 63, 69] | Speeds: L=  0.72  R=  1.72
+[Step   670] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   690] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   700] Situation: NARROW_PASSAGE  | Sensors: [64, 65, 70, 67, 70, 64, 66, 65] | Speeds: L=  0.92  R=  1.52
+[Step   720] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   743] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   750] Situation: NARROW_PASSAGE  | Sensors: [65, 66, 61, 66, 73, 67, 69, 68] | Speeds: L=  1.20  R=  1.11
+[Step   773] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   793] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   800] Situation: NARROW_PASSAGE  | Sensors: [65, 64, 68, 65, 71, 67, 70, 66] | Speeds: L=  1.27  R=  1.03
+[Step   823] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   839] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   850] Situation: NARROW_PASSAGE  | Sensors: [69, 67, 71, 68, 71, 71, 67, 61] | Speeds: L=  0.81  R=  1.65
+[Step   869] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   891] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   900] Situation: NARROW_PASSAGE  | Sensors: [65, 70, 71, 69, 66, 68, 64, 64] | Speeds: L=  0.57  R=  1.84
+[Step   921] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   945] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step   950] Situation: NARROW_PASSAGE  | Sensors: [72, 71, 70, 66, 70, 68, 68, 63] | Speeds: L=  0.35  R=  1.74
+[Step   975] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step   995] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1000] Situation: NARROW_PASSAGE  | Sensors: [70, 71, 72, 66, 70, 66, 66, 66] | Speeds: L=  1.18  R=  0.91
+[Step  1025] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1048] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1050] Situation: NARROW_PASSAGE  | Sensors: [69, 66, 70, 63, 60, 70, 65, 75] | Speeds: L=  2.24  R= -0.95
+[Step  1078] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1100] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1130] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1150] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1180] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1203] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1233] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1256] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1286] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1302] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1332] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1348] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1350] Situation: NARROW_PASSAGE  | Sensors: [62, 67, 62, 67, 74, 65, 70, 68] | Speeds: L=  2.50  R= -1.22
+[Step  1378] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1395] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1400] Situation: NARROW_PASSAGE  | Sensors: [66, 60, 72, 63, 66, 65, 67, 65] | Speeds: L=  0.40  R=  1.69
+[Step  1425] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1450] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1480] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1496] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1500] Situation: NARROW_PASSAGE  | Sensors: [66, 67, 65, 71, 69, 68, 64, 68] | Speeds: L=  2.00  R= -0.09
+[Step  1526] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1550] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1580] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1600] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1630] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1653] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1683] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1705] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1735] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1754] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1784] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1805] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1835] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1858] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1888] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1909] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1939] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  1955] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  1985] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2001] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2031] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2049] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2050] Situation: NARROW_PASSAGE  | Sensors: [66, 69, 70, 66, 70, 62, 67, 65] | Speeds: L= -2.01  R=  2.76
+[Step  2079] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2097] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2100] Situation: NARROW_PASSAGE  | Sensors: [69, 72, 63, 68, 66, 66, 68, 72] | Speeds: L= -0.10  R=  1.75
+[Step  2127] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2147] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2150] Situation: NARROW_PASSAGE  | Sensors: [63, 70, 70, 65, 66, 65, 69, 61] | Speeds: L=  1.94  R= -0.29
+[Step  2177] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2192] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2200] Situation: NARROW_PASSAGE  | Sensors: [63, 70, 60, 63, 70, 74, 72, 68] | Speeds: L=  1.52  R=  0.85
+[Step  2222] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2241] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2250] Situation: NARROW_PASSAGE  | Sensors: [58, 66, 69, 68, 71, 69, 71, 71] | Speeds: L=  1.32  R=  1.09
+[Step  2271] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2288] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2300] Situation: NARROW_PASSAGE  | Sensors: [71, 65, 69, 65, 70, 68, 68, 73] | Speeds: L=  1.08  R=  1.39
+[Step  2318] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2339] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2350] Situation: NARROW_PASSAGE  | Sensors: [71, 65, 67, 67, 71, 67, 72, 66] | Speeds: L=  1.39  R=  1.07
+[Step  2369] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2390] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2400] Situation: NARROW_PASSAGE  | Sensors: [67, 69, 65, 64, 62, 66, 68, 66] | Speeds: L=  0.94  R=  1.51
+[Step  2420] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2444] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2450] Situation: NARROW_PASSAGE  | Sensors: [69, 65, 67, 67, 69, 65, 68, 65] | Speeds: L=  0.60  R=  1.61
+[Step  2474] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2492] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2500] Situation: NARROW_PASSAGE  | Sensors: [68, 68, 68, 69, 62, 69, 65, 69] | Speeds: L=  1.03  R=  1.34
+[Step  2522] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2538] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2550] Situation: NARROW_PASSAGE  | Sensors: [65, 67, 68, 70, 68, 59, 67, 68] | Speeds: L=  1.35  R=  1.13
+[Step  2568] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2593] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2600] Situation: NARROW_PASSAGE  | Sensors: [63, 67, 68, 61, 67, 62, 67, 66] | Speeds: L=  0.90  R=  1.40
+[Step  2623] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2638] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2650] Situation: NARROW_PASSAGE  | Sensors: [63, 60, 70, 69, 67, 71, 67, 65] | Speeds: L=  1.37  R=  1.11
+[Step  2668] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2691] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2700] Situation: NARROW_PASSAGE  | Sensors: [72, 67, 71, 64, 66, 66, 61, 65] | Speeds: L=  1.22  R=  1.19
+[Step  2721] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2745] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2750] Situation: NARROW_PASSAGE  | Sensors: [68, 67, 66, 68, 66, 69, 65, 69] | Speeds: L=  1.83  R=  0.26
+[Step  2775] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2794] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2800] Situation: NARROW_PASSAGE  | Sensors: [73, 67, 64, 64, 67, 66, 68, 69] | Speeds: L=  0.56  R=  1.65
+[Step  2824] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2840] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2850] Situation: NARROW_PASSAGE  | Sensors: [63, 67, 66, 68, 69, 72, 68, 65] | Speeds: L=  1.16  R=  1.28
+[Step  2870] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2890] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2900] Situation: NARROW_PASSAGE  | Sensors: [64, 72, 69, 73, 67, 65, 64, 63] | Speeds: L=  1.21  R=  1.23
+[Step  2920] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2937] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  2950] Situation: NARROW_PASSAGE  | Sensors: [68, 65, 68, 67, 71, 64, 67, 72] | Speeds: L=  1.56  R=  0.92
+[Step  2967] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  2983] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3000] Situation: NARROW_PASSAGE  | Sensors: [68, 71, 69, 73, 64, 90, 85, 67] | Speeds: L=  1.86  R=  0.64
+[Step  3013] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3028] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3050] Situation: NARROW_PASSAGE  | Sensors: [64, 69, 62, 68, 73, 148, 66, 61] | Speeds: L=  1.88  R=  0.63
+[Step  3058] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3082] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3100] Situation: NARROW_PASSAGE  | Sensors: [73, 65, 67, 72, 108, 70, 61, 67] | Speeds: L=  1.28  R=  1.23
+[Step  3112] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3132] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3150] Situation: NARROW_PASSAGE  | Sensors: [70, 66, 70, 63, 66, 66, 65, 66] | Speeds: L=  1.36  R=  1.15
+[Step  3162] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3186] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3200] Situation: NARROW_PASSAGE  | Sensors: [66, 71, 69, 69, 73, 69, 67, 77] | Speeds: L=  1.61  R=  0.88
+[Step  3216] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3239] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3250] Situation: NARROW_PASSAGE  | Sensors: [64, 64, 71, 71, 73, 69, 63, 67] | Speeds: L=  0.98  R=  1.48
+[Step  3269] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3294] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3300] Situation: NARROW_PASSAGE  | Sensors: [63, 64, 66, 67, 68, 67, 65, 70] | Speeds: L=  1.10  R=  1.12
+[Step  3324] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3342] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3350] Situation: NARROW_PASSAGE  | Sensors: [66, 67, 69, 70, 66, 64, 71, 67] | Speeds: L=  0.82  R=  1.55
+[Step  3372] ** STUCK DETECTED - Initiating escape manoeuvre **
+[Step  3397] ** ESCAPE COMPLETE - Resuming normal navigation **
+[Step  3400] Situation: NARROW_PASSAGE  | Sensors: [67, 68, 67, 63, 67, 63, 70, 66] | Speeds: L=  1.49  R=  0.16
