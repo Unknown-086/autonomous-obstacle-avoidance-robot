@@ -313,26 +313,48 @@ The project successfully met its stated criterion of one hundred percent collisi
 \textbf{Conclusion.} This project successfully achieved its stated goal of one hundred percent collision avoidance across all six structured test scenarios, including open arena navigation, obstacle-dense environments, corner traps, narrow passages, full-arena endurance runs, and threshold sensitivity analysis. The system sustained over 320 seconds of continuous autonomous operation in a cluttered environment containing seven static obstacles, demonstrating robust long-duration reliability with only two escape manoeuvre activations during the entire endurance test. The reactive AI approach, inspired directly by Braitenberg's Vehicle 2a sensor-motor mapping, proved that complex and smooth navigation behaviour can emerge from simple proportional control rules without requiring path planning, mapping algorithms, or machine learning. However, the project has notable shortcomings: it was tested exclusively with static obstacles and would likely fail against moving objects without additional velocity-estimation logic; the robot has no coverage strategy and may leave areas unexplored while repeatedly visiting others; and the system requires manual threshold calibration that depends on the specific sensor hardware's noise characteristics. The corner trap scenario revealed that while the escape mechanism works, it sometimes requires multiple attempts (three in the worst case) to free the robot, suggesting that a more intelligent directional escape strategy could improve efficiency. The threshold sensitivity analysis exposed the most critical engineering insight: a single poorly chosen parameter (threshold below the 76-unit noise floor) renders an otherwise well-designed system completely non-functional, producing constant erratic false-positive detections. For someone attempting a similar project, the single most important actionable recommendation is to begin by characterising your sensor's ambient noise floor through a stationary measurement before choosing any detection threshold, because this one parameter determines whether the entire system functions or fails, regardless of how sophisticated the remaining control logic may be. Future work should explore dynamic obstacle handling through velocity estimation, systematic coverage algorithms using odometry, and adaptive threshold calibration that automatically adjusts to sensor drift over time.
 
 % ══════════════════════════════════════════════════════════════════════════════
-%  REFERENCES
+%  BIBLIOGRAPHY
 % ══════════════════════════════════════════════════════════════════════════════
 \vspace{0.5cm}
+\renewcommand{\refname}{Bibliography}
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{99}
+
+\bibitem{arkin1998}
+\textbf{Arkin, R.C. (1998) \textit{Behavior-Based Robotics}. Cambridge, MA: MIT Press. Available at: \url{https://mitpress.mit.edu/9780262011655/}}
 
 \bibitem{braitenberg1984}
-Braitenberg, V. (\textbf{1984}). \textit{Vehicles: Experiments in Synthetic Psychology}. MIT Press. Available at: \url{https://mitpress.mit.edu/9780262521123/vehicles/}
+\textbf{Braitenberg, V. (1984) \textit{Vehicles: Experiments in Synthetic Psychology}. Cambridge, MA: MIT Press. Available at: \url{https://mitpress.mit.edu/9780262521123/vehicles/}}
 
 \bibitem{brooks1986}
-Brooks, R.A. (\textbf{1986}). A robust layered control system for a mobile robot. \textit{IEEE Journal on Robotics and Automation}, 2(1), pp. 14-23. Available at: \url{https://ieeexplore.ieee.org/document/1087032/}
+\textbf{Brooks, R.A. (1986) `A robust layered control system for a mobile robot'. \textit{IEEE Journal on Robotics and Automation}, 2(1), pp. 14--23. Available at: \url{https://ieeexplore.ieee.org/document/1087032/}}
 
-\bibitem{mondada2009}
-Mondada, F., Bonani, M., Raemy, X., Pugh, J., Cianci, C., Klaptocz, A., Magnenat, S., Zufferey, J.-C., Floreano, D., and Martinoli, A. (\textbf{2009}). The e-puck, a robot designed for education in engineering. \textit{Proceedings of the 9th Conference on Autonomous Robot Systems and Competitions}, 1(1), pp. 59-65. Available at: \url{https://infoscience.epfl.ch/record/135236}
+\bibitem{brooks1991}
+\textbf{Brooks, R.A. (1991) `Intelligence without representation'. \textit{Artificial Intelligence}, 47(1--3), pp. 139--159. Available at: \url{https://people.csail.mit.edu/brooks/papers/representation.pdf}}
 
 \bibitem{webots2023}
-Cyberbotics Ltd. (\textbf{2023}). \textit{Webots User Guide}. Available at: \url{https://cyberbotics.com/doc/guide/index}
+\textbf{Cyberbotics Ltd. (2023) \textit{Webots User Guide}. Available at: \url{https://cyberbotics.com/doc/guide/index}}
+
+\bibitem{mataric2007}
+\textbf{Matari\'{c}, M.J. (2007) \textit{The Robotics Primer}. Cambridge, MA: MIT Press.}
+
+\bibitem{michel2004}
+\textbf{Michel, O. (2004) `Cyberbotics' Robot Simulator Webots'. \textit{International Journal of Advanced Robotic Systems}, 1(1), pp. 39--42. Available at: \url{https://journals.sagepub.com/doi/10.5772/5618}}
+
+\bibitem{mondada2009}
+\textbf{Mondada, F., Bonani, M., Raemy, X., Pugh, J., Cianci, C., Klaptocz, A., Magnenat, S., Zufferey, J.-C., Floreano, D. and Martinoli, A. (2009) `The e-puck, a robot designed for education in engineering'. \textit{Proceedings of the 9th Conference on Autonomous Robot Systems and Competitions}, 1(1), pp. 59--65. Available at: \url{https://infoscience.epfl.ch/record/135236}}
+
+\bibitem{murphy2000}
+\textbf{Murphy, R.R. (2000) \textit{An Introduction to AI Robotics}. Cambridge, MA: MIT Press.}
+
+\bibitem{siegwart2004}
+\textbf{Siegwart, R. and Nourbakhsh, I.R. (2004) \textit{Introduction to Autonomous Mobile Robots}. Cambridge, MA: MIT Press. Available at: \url{https://mitpress.mit.edu/9780262195027/}}
+
+\bibitem{thrun2005}
+\textbf{Thrun, S., Burgard, W. and Fox, D. (2005) \textit{Probabilistic Robotics}. Cambridge, MA: MIT Press. Available at: \url{https://mitpress.mit.edu/9780262201629/}}
 
 \bibitem{webotsepuck2023}
-Webots Reference Manual (\textbf{2023}). \textit{E-puck Documentation}. Cyberbotics Ltd. Available at: \url{https://cyberbotics.com/doc/guide/epuck}
+\textbf{Webots Reference Manual (2023) \textit{E-puck Documentation}. Cyberbotics Ltd. Available at: \url{https://cyberbotics.com/doc/guide/epuck}}
 
 \end{thebibliography}
 
